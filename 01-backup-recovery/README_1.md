@@ -18,12 +18,6 @@ Demonstrate ability to protect data and recover from disasters using PostgreSQL 
 4. **Verification**  
    - Queried `SELECT * FROM employees;` to confirm data recovery.
 
-## 📸 Evidence
-- ![Backup dialog screenshot](screenshots/backup.png)
-- ![Drop table screenshot](screenshots/drop.png)
-- ![Restore dialog screenshot](screenshots/restore.png)
-- ![Verification screenshot](screenshots/select.png)
-
 ## ✅ Outcome
 Successfully restored the `employees` table after simulated deletion.  
 Recovery completed in under 1 minute.
